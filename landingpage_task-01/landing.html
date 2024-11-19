@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FragranceLux - Unleash Your Essence</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            color: #fff;
+            background-color: #111;
+            line-height: 1.6;
+        }
+
+        /* Container for full-width sections */
+        .container {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #222;
+            color: #ffd700;
+        }
+
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        header .nav a {
+            color: #ffd700;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to bottom right, #000, #333);
+            color: #ffd700;
+            background-image: url('P1.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #ffe066;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 35px;
+            background-color: #ffd700;
+            color: #111;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero .btn:hover {
+            background-color: #e6c300;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: #222;
+            text-align: center;
+        }
+
+        .features .feature {
+            width: 30%;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .features .feature img {
+            max-width: 50px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .features .feature h3 {
+            font-size: 1.4rem;
+            margin: 15px 0;
+            color: #ffd700;
+        }
+
+        /* Collections Section */
+        .collections {
+            text-align: center;
+            padding: 50px 20px;
+            background: #000;
+        }
+
+        .collections h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+
+        .collections .collection {
+            width: 80%;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            color: #ffe066;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            text-align: center;
+            padding: 40px 20px;
+            background: #333;
+            color: #ffd700;
+        }
+
+        .testimonials h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .testimonials .testimony {
+            display: inline-block;
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            background: #444;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .testimonials .testimony p {
+            font-size: 0.9rem;
+        }
+
+        .testimonials .testimony .author {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            background-color: #222;
+            color: #ffd700;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">FragranceLux</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Collections</a>
+            <a href="#">Gifts</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Unleash Your Essence with FragranceLux</h1>
+        <p>Discover the finest fragrances crafted to elevate your persona.</p>
+        <a href="#" class="btn">Explore Now</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="P2.jpg" alt="Luxury Icon">
+            <h3>Exclusive Scents</h3>
+            <p>Choose from a curated selection of world-class fragrances.</p>
+        </div>
+        <div class="feature">
+            <img src="P3.jpg" alt="Custom Icon">
+            <h3>Custom Packaging</h3>
+            <p>Personalize your fragrance experience with elegant packaging.</p>
+        </div>
+        <div class="feature">
+            <img src="P4.jpg" alt="Gift Icon">
+            <h3>Perfect Gifts</h3>
+            <p>Find exquisite gift sets for every occasion.</p>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <!-- Collections Section -->
+<section class="collections">
+    <h2>Our Signature Collections</h2>
+    <div class="collection">
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+            <!-- Dummy Images for Collection -->
+            <div style="width: 30%; text-align: center;">
+                <img src="https://images.pexels.com/photos/7814730/pexels-photo-7814730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Perfume 1" style="width: 100%; border-radius: 10px;">
+                <p style="margin-top: 10px; color: #ffe066;">Elegant Rose</p>
+            </div>
+            <div style="width: 30%; text-align: center;">
+                <img src="https://images.pexels.com/photos/7814728/pexels-photo-7814728.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Perfume 2" style="width: 100%; border-radius: 10px;">
+                <p style="margin-top: 10px; color: #ffe066;">Mystic Oud</p>
+            </div>
+            <div style="width: 30%; text-align: center;">
+                <img src="https://images.pexels.com/photos/7814536/pexels-photo-7814536.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Perfume 3" style="width: 100%; border-radius: 10px;">
+                <p style="margin-top: 10px; color: #ffe066;">Vanilla Essence</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimony">
+            <p>"FragranceLux offers a luxurious experience. I feel confident wearing their scents!"</p>
+            <div class="author">- Monish.k</div>
+        </div>
+        <div class="testimony">
+            <p>"I gifted a set from FragranceLux, and it was a hit! Premium and elegant."</p>
+            <div class="author">- Dhanush</div>
+        </div>
+        <div class="testimony">
+            <p>"A perfect blend of luxury and sophistication. My favorite online store for perfumes."</p>
+            <div class="author">- Jeevan</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FragranceLux. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
